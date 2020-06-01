@@ -36,6 +36,9 @@ body {
 	padding-right: 15px;
 }
 
+#main {
+	margin-left: 40px;
+}
 #section1 {
 	margin: 50px 0px 0px 100px;
 }
