@@ -1,0 +1,74 @@
+body {
+	background-color: beige;
+	color: #555;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 16px;
+	line-height: 1.6em;
+	margin: 0;
+}
+
+.container {
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+#mainHeader {
+	background-color: coral;
+	color: white;
+}
+
+#navbar {
+	background-color: #333;
+	color: white;
+}
+#navbar ul {
+	padding: 0;
+	list-style: none;
+}
+#navbar li {
+	display: inline;
+}
+#navbar a {
+	color: white;
+	text-decoration: none;
+	font-size: 18px;
+	padding-right: 15px;
+}
+
+#section1 {
+	margin: 50px 0px 0px 50px;
+}
+
+#markTable {
+	padding-right: 50px;
+	margin-left: 50px;
+	margin-top: 25px;
+}
+#markTable th {
+	padding-right: 50px;
+	background: #ff926a;
+}
+#markTable tr {
+	background: #ffa483;
+}
+.td {
+	margin: 5px 5px;
+	box-sizing: border-box;
+	border: orange;
+	border-radius: 50px;
+	padding: 5px;
+}
+
+.buttons {
+	margin-left: 50px;
+	margin-top: 10px;
+	border: none;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+
+#showMark {
+	margin: 50px;
+}

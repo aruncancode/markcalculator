@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Mark Calculator</title>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+
+	<body>
+		<header id="mainHeader">
+			<div class="container">
+				<h1>Mark Calculator</h1>
+			</div>
+		</header>
+
+		<nav id="navbar">
+			<div class="container">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+				</ul>
+			</div>
+		</nav>
+
+		<section id="section1">
+			<div id="container">
+				<h2>Insert your marks!</h2>
+			</div>
+		</section>
+
+		<div>
+			<table id="markTable">
+				<tr>
+					<th>#</th>
+					<th>Weighting%</th>
+					<th>Mark%</th>
+					<th>Weighted Mark</th>
+					<th>Required Mark%</th>
+				</tr>
+			</table>
+		</div>
+
+		<div class="buttons">
+			<button type="button" id="addBtn" onclick="addRow();">Add Mark</button>
+			<button type="button" id="delBtn" onclick="delRow();">Delete Mark</button>
+		</div>
+
+		<input
+			type="text"
+			id="wantedMark"
+			placeholder="Wanted Mark %"
+			oninput="reqMark();"
+		/>
+
+		<section>
+			<div id="showMark">
+				<h2>
+					Your Mark:
+				</h2>
+
+				<h2 id="mark"></h2>
+			</div>
+		</section>
+		<script src="script.js"></script>
+	</body>
+</html>
