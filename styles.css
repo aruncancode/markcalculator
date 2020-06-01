@@ -37,7 +37,7 @@ body {
 }
 
 #section1 {
-	margin: 50px 0px 0px 50px;
+	margin: 50px 0px 0px 100px;
 }
 
 #markTable {
@@ -71,4 +71,12 @@ body {
 
 #showMark {
 	margin: 50px;
+}
+
+#mainFooter {
+	background: #333;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+	margin-top: 500px;
 }

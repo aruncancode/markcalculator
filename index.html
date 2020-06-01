@@ -23,37 +23,39 @@
 			</div>
 		</nav>
 
-		<section id="section1">
-			<div id="container">
+		<section id="container">
+			<div>
 				<h2>Insert your marks!</h2>
 			</div>
-		</section>
 
-		<div>
-			<table id="markTable">
-				<tr>
-					<th>#</th>
-					<th>Weighting%</th>
-					<th>Mark%</th>
-					<th>Weighted Mark</th>
-					<th>Required Mark%</th>
-				</tr>
-			</table>
-		</div>
+			<div>
+				<table id="markTable">
+					<tr>
+						<th>#</th>
+						<th>Weighting%</th>
+						<th>Mark%</th>
+						<th>Weighted Mark</th>
+						<th>Required Mark%</th>
+					</tr>
+				</table>
+			</div>
 
-		<div class="buttons">
-			<button type="button" id="addBtn" onclick="addRow();">Add Mark</button>
-			<button type="button" id="delBtn" onclick="delRow();">Delete Mark</button>
-		</div>
+			<div class="buttons">
+				<button type="button" id="addBtn" onclick="addRow();">
+					Add Mark
+				</button>
+				<button type="button" id="delBtn" onclick="delRow();">
+					Delete Mark
+				</button>
+			</div>
 
-		<input
-			type="text"
-			id="wantedMark"
-			placeholder="Wanted Mark %"
-			oninput="reqMark();"
-		/>
+			<input
+				type="text"
+				id="wantedMark"
+				placeholder="Wanted Mark %"
+				oninput="reqMark();"
+			/>
 
-		<section>
 			<div id="showMark">
 				<h2>
 					Your Mark:
@@ -62,6 +64,12 @@
 				<h2 id="mark"></h2>
 			</div>
 		</section>
+
+		<footer id="mainFooter">
+			<p>Copyright &copy; Arun Arjunan 2020</p>
+			<p>Version 1/6/20 0.1 Stable Build</p>
+		</footer>
+
 		<script src="script.js"></script>
 	</body>
 </html>
