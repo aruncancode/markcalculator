@@ -1,75 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Mark Calculator</title>
-		<link rel="stylesheet" href="styles.css" />
-	</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mark Calculator</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-	<body>
-		<header id="mainHeader">
-			<div class="container">
-				<h1>Mark Calculator</h1>
-			</div>
-		</header>
+  <body>
+    <header id="mainHeader">
+      <div class="container">
+        <h1>Mark Calculator</h1>
+      </div>
+    </header>
 
-		<nav id="navbar">
-			<div class="container">
-				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="about.html">About</a></li>
-				</ul>
-			</div>
-		</nav>
+    <nav id="navbar">
+      <div class="container">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </div>
+    </nav>
 
-		<section id="main">
-			<div id="showMark">
-				<h2>Insert your marks!</h2>
-			</div>
+    <section id="main">
+      <div class="container">
+        <div id="showMark">
+          <h2>Insert your marks!</h2>
+        </div>
 
-			<div>
-				<table id="markTable">
-					<tr>
-						<th>#</th>
-						<th>Weighting%</th>
-						<th>Mark%</th>
-						<th>Weighted Mark</th>
-						<th>Required Mark%</th>
-					</tr>
-				</table>
-			</div>
+        <div>
+          <table id="markTable">
+            <tr>
+              <th>#</th>
+              <th>Weighting%</th>
+              <th>Mark%</th>
+              <th>Weighted Mark</th>
+              <th>Required Mark%</th>
+            </tr>
+          </table>
+        </div>
 
-			<div class="buttons">
-				<button type="button" id="addBtn" onclick="addRow();">
-					Add Mark
-				</button>
-				<button type="button" id="delBtn" onclick="delRow();">
-					Delete Mark
-				</button>
-			</div>
+        <div class="buttons">
+          <button type="button" id="addBtn" onclick="addRow();">
+            Add Mark
+          </button>
+          <button type="button" id="delBtn" onclick="delRow();">
+            Delete Mark
+          </button>
+        </div>
 
-			<input
-				type="text"
-				id="wantedMark"
-				placeholder="Wanted Mark %"
-				oninput="reqMark();"
-			/>
+        <input
+          type="text"
+          id="wantedMark"
+          placeholder="Wanted Mark %"
+          oninput="reqMark();"
+        />
 
-			<div id="showMark">
-				<h2>
-					Your Mark:
-				</h2>
+        <div id="showMark">
+          <h2>
+            Your Mark:
+          </h2>
 
-				<h2 id="mark"></h2>
-			</div>
-		</section>
+          <h2 id="mark"></h2>
+        </div>
+      </div>
+    </section>
 
-		<footer id="mainFooter">
-			<p>Copyright &copy; Arun Arjunan 2020</p>
-			<p>Version 1/6/20 0.1 Stable Build</p>
-		</footer>
+    <footer id="mainFooter">
+      <p>Copyright &copy; Arun Arjunan 2020</p>
+      <p>Version 1/6/20 0.1 Stable Build</p>
+    </footer>
 
-		<script src="script.js"></script>
-	</body>
+    <script src="script.js"></script>
+  </body>
 </html>
