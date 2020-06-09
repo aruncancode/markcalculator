@@ -1,80 +1,98 @@
 body {
-  background-color: beige;
-  color: #555;
-  font-family: "Courier New", Courier, monospace;
-  font-size: 16px;
-  line-height: 1.6em;
-  margin: 0;
+	background-color: rgb(164, 189, 238);
+	color: black;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 16px;
+	line-height: 1.6em;
+	margin: 0;
 }
 
 .container {
-  width: 80%;
-  margin: auto;
-  overflow: hidden;
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
 }
 
 #mainHeader {
-  background-color: coral;
-  color: white;
+	background-color: #003399;
+	color: black;
 }
 
 #navbar {
-  background-color: #333;
-  color: white;
+	background-color: #3366cc;
 }
 #navbar ul {
-  padding: 0;
-  list-style: none;
+	padding: 0;
+	list-style: none;
 }
 #navbar li {
-  display: inline;
+	display: inline;
 }
 #navbar a {
-  color: white;
-  text-decoration: none;
-  font-size: 18px;
-  padding-right: 15px;
+	color: black;
+	text-decoration: none;
+	font-size: 18px;
+	padding-right: 15px;
 }
 
 #section1 {
-  margin: 50px 0px 0px 100px;
+	margin: 50px 0px 0px 100px;
 }
 
 #markTable {
-  padding-right: 50px;
-  margin-top: 25px;
+	padding-right: 50px;
+	margin-top: 25px;
 }
 #markTable th {
-  padding-right: 50px;
-  background: #ff926a;
+	padding-right: 50px;
+	background: #3366cc;
 }
+
 #markTable tr {
-  background: #ffa483;
+	background: #6699ff;
 }
 .td {
-  margin: 5px 5px;
-  box-sizing: border-box;
-  border: orange;
-  border-radius: 50px;
-  padding: 5px;
+	margin: 5px 5px;
+	box-sizing: border-box;
+	border: #3366cc;
+	border-radius: 50px;
+	padding: 5px;
 }
 
 .buttons {
-  margin-top: 10px;
-  border: none;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
+	background-color: #6699ff;
+	margin-top: 10px;
+	border: none;
+	text-decoration: none;
+	border-style: none;
+	padding: 10px;
+	font-family: "Courier New", Courier, monospace;
+}
+
+.wantedMark {
+	background-color: #6699ff;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border: none;
+	font-family: "Courier New", Courier, monospace;
 }
 
 #showMark {
-  margin-top: 20px;
+	margin-top: 20px;
+}
+
+#showMarkBox {
+	padding: 10px;
+	background-color: #88acf3;
+	width: 500px;
+	height: 200px;
 }
 
 #mainFooter {
-  background: #333;
-  color: #fff;
-  text-align: center;
-  padding: 20px;
-  margin-top: 500px;
+	background: #333;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+	margin-top: 500px;
 }
