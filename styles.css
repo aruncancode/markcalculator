@@ -1,5 +1,5 @@
 body {
-	background-color: rgb(164, 189, 238);
+	background-color: lightslategray;
 	color: black;
 	font-family: "Courier New", Courier, monospace;
 	font-size: 16px;
@@ -14,12 +14,12 @@ body {
 }
 
 #mainHeader {
-	background-color: #003399;
+	background-color: grey;
 	color: black;
 }
 
 #navbar {
-	background-color: #3366cc;
+	background-color: darkgrey;
 }
 #navbar ul {
 	padding: 0;
@@ -45,22 +45,22 @@ body {
 }
 #markTable th {
 	padding-right: 50px;
-	background: #3366cc;
+	background: lightgrey;
 }
 
 #markTable tr {
-	background: #6699ff;
+	background: lightgray;
 }
 .td {
 	margin: 5px 5px;
 	box-sizing: border-box;
-	border: #3366cc;
+	border: lightblue;
 	border-radius: 50px;
 	padding: 5px;
 }
 
 .buttons {
-	background-color: #6699ff;
+	background-color: lightblue;
 	margin-top: 10px;
 	border: none;
 	text-decoration: none;
@@ -70,7 +70,7 @@ body {
 }
 
 .wantedMark {
-	background-color: #6699ff;
+	background-color: lightcyan;
 	padding: 12px 20px;
 	margin: 8px 0;
 	box-sizing: border-box;
@@ -84,7 +84,7 @@ body {
 
 #showMarkBox {
 	padding: 10px;
-	background-color: #88acf3;
+	background-color: lightgray;
 	width: 500px;
 	height: 200px;
 }

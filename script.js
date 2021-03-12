@@ -14,7 +14,7 @@ function setAttributes(el, attrs) {
 }
 
 function addRow() {
-  if (n <= 10) {
+  if (n <= 20) {
     row = table.insertRow();
     title = row.insertCell(0);
     weighting = row.insertCell(1);
